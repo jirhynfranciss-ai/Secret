@@ -12,8 +12,8 @@ if (!supabaseUrl || !supabaseAnonKey) {
 }
 
 export const supabase = createClient(
-  supabaseUrl || 'https://placeholder.supabase.co',
-  supabaseAnonKey || 'placeholder-anon-key',
+  supabaseUrl || 'https://yonlxsighrbpluyewpwt.supabase.co',
+  supabaseAnonKey || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlvbmx4c2lnaHJicGx1eWV3cHd0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzMjgwNDAsImV4cCI6MjEwNTkwNDA0MH0.J6ZEIb9G8g6Kbm5iLteGVMjDswXrEFRvnsk0yV3Qx7U',
   {
     auth: {
       autoRefreshToken: true,
